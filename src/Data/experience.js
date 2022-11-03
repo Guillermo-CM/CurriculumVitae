@@ -19,32 +19,41 @@ const experience = [
         enterprise: "Newell Rubermaid",
         job: "Operador de producción/materialista",
         activities: [
-            { activity: " Operador de línea de producción, visual de material defectuoso" },
-            { activity: " Materialista de materia a máquina de ensamble" },
+            { activity: "Operador de línea de producción, visual de material defectuoso" },
+            { activity: "Materialista de materia a máquina de ensamble" },
         ]
     },
     {
         enterprise: "Martech Medical",
         job: "Operador de producción",
         activities: [
-            { activity: "  Operador de producción " },
-            { activity: "  Llenado de formatos de producción " },
+            { activity: "Operador de producción" },
+            { activity: "Llenado de formatos de producción" },
         ]
     },
     {
         enterprise: "Jardin de Eventos",
         job: "Trabajo en la página web de un Jardin de Eventos",
         activities: [
-            { activity: "  Uso de HTML, CSS y JS para crear una página web estática " },
+            { activity: "Uso de HTML, CSS y JS para crear una página web estática" },
         ]
     },
     {
         enterprise: "Paradigma-Tec Development",
-        job: " Programador Web",
+        job: "Programador Web",
         activities: [
-            { activity: " Uso de framework UI Kendo " },
-            { activity: "  Crear modelos, migración, interface, implementación y controlador de API Controller " },
-            { activity: "  Programación en sistemas basados en Asp.Net " },
+            { activity: "Uso de framework UI Kendo" },
+            { activity: "Crear modelos, migración, interface, implementación y controlador de API Controller" },
+            { activity: "Programación en sistemas basados en Asp.Net" },
+        ]
+    },
+    {
+        enterprise: "Reconext",
+        job: "Analista de Operaciones",
+        activities: [
+            { activity: "Creación y uso de Querys a Bases de Datos SQL, Oracle, SyBase y MySQL" },
+            { activity: "Generación de reportes de producción, gastos, logísitca" },
+            { activity: "Trabajo colaborativo con distintos departamentos y bases de datos para generar información precisa" },
         ]
     },
 ]
