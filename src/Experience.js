@@ -12,6 +12,7 @@ const Experience = () => {
         {
             experience.map( (item) => 
             <>
+                <div className="space">
                 <p><span>{`${item.enterprise} - ${item.job}`}</span></p>
                 {
                     item.activities.map( (item) =>
@@ -20,6 +21,7 @@ const Experience = () => {
                     </ul>
                     )
                 }
+                </div>
             </>
             )
         }
