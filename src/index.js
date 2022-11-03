@@ -1,17 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header from './HeaderCV';
+import Academic from './Academic';
+import Course from './Courses';
+import Habiliti from './Habilities';
+import Experience from './Experience';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const header = document.querySelector('#root')
+const academic = document.querySelector('.academic')
+const course = document.querySelector('.courses')
+const habilities = document.querySelector('.habilities')
+const experience = document.querySelector('.experience')
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render( <Header />, header );
+ReactDOM.render( <Academic />, academic );
+ReactDOM.render( <Course />, course);
+ReactDOM.render( <Habiliti/>, habilities);
+ReactDOM.render( <Experience/>, experience);
+
+// console.log(Experience);
