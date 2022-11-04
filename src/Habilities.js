@@ -26,6 +26,8 @@ const Habiliti = () => {
                             <br/>
                             <li>{item[6]}</li>
                             <br/>
+                            <li>{item[7]}</li>
+                            <br/>
                         </>
                     )
                     })
