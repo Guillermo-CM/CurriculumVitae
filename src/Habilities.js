@@ -1,7 +1,7 @@
 import React from "react";
-import habilities from "./Data/habilitie";
+import habilities from "./Data/hability";
 import './Curriculum.css'
-const Habiliti = () => {
+const Hability = () => {
     return (
         <>
             <div id="title">
@@ -37,4 +37,4 @@ const Habiliti = () => {
     );
 }
 
-export default Habiliti;
+export default Hability;
