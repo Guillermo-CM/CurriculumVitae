@@ -52,7 +52,7 @@ const experience = [
         job: "Analista de Operaciones",
         activities: [
             { activity: "Creación y uso de Querys a Bases de Datos SQL, Oracle, SyBase y MySQL" },
-            { activity: "Generación de reportes de producción, gastos, logísitca" },
+            { activity: "Generación de reportes de producción, gastos, logística" },
             { activity: "Trabajo colaborativo con distintos departamentos y bases de datos para generar información precisa" },
         ]
     },
