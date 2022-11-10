@@ -7,7 +7,6 @@ const habilities = [
       "4": "Conocimiento en Front End (HTML, CSS, JAVASCRIPT)",
       "5": "Backend en sistemas basados en .Net",
       "6": "Uso de GIT",
-      "7": "Seguridad e Higiene en las empresas",
     },
   ];
 
